@@ -15,7 +15,7 @@
 <body>
 
 <h1>Hello Word</h1>
-<h1><%= service.getNow() %></h1>
+<h2><%= service.getNow() %></h2>
 
 
 </body>
