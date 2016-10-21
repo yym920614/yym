@@ -15,8 +15,6 @@
 <body>
 
 <h1>Hello Word</h1>
-<h1>Hello Yym</h1>
-<h2>Hello World </h2>
 <h2><% service.getNow() %></h2>
 
 
