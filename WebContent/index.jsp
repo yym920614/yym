@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import = "org.zerock.service" %>
+<%@ page import = "org.zerock.service.TimeService" %>
 
 <%
 	TimeService service = new TimeService();
@@ -15,7 +15,7 @@
 <body>
 
 <h1>Hello Word</h1>
-<h2><% service.getNow() %></h2>
+<h2><% service.getNow(); %></h2>
 
 
 </body>
